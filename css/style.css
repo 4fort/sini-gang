@@ -1,0 +1,110 @@
+html {
+    scroll-behavior: smooth;
+}
+
+@media only screen and (max-width:992px){
+    html {
+        font-size: 80%;
+    }
+    footer {
+        font-size: 100%!important;
+    }
+	.navbar {
+        background-color: #ffffffde;
+        backdrop-filter: saturate(180%) blur(20px);
+        transition: 0.2s;
+	}
+    .second-block {
+        background: rgb(255,255,255);
+        background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(248,239,223,1) 25%, rgba(248,239,223,1) 50%, rgba(248,239,223,1) 75%, rgba(255,255,255,1) 100%);
+    }
+    .footer-items-center-sm {
+        text-align: center;
+    }
+}
+
+:root{
+    --primary-color: #8E806A;
+    --secondary-color: #C3B091;
+    --third-color: #E4CDA7;
+    --fourth-color: #FFE6BC;
+    --fifth-color: #fff4e4;
+    --sixth-color: #9eb23b;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Quicksand', sans-serif;
+}
+
+.o-bg-primary-color {
+    background-color: var(--primary-color);
+}
+
+.o-bg-secondary-color {
+    background-color: var(--secondary-color);
+}
+
+.o-bg-third-color {
+    background-color: var(--third-color);
+}
+
+.o-bg-fourth-color {
+    background-color: var(--fourth-color);
+}
+
+
+.o-text-primary-color {
+    color: var(--primary-color)!important;
+}
+
+.o-text-secondary-color {
+    color: var(--secondary-color)!important;
+}
+
+.o-text-third-color {
+    color: var(--third-color)!important;
+}
+
+.o-text-fourth-color {
+    color: var(--fourth-color)!important;
+}
+
+.o-text-fifth-color {
+    color: var(--fifth-color)!important;
+}
+
+.o-text-sixth-color {
+    color: var(--sixth-color)!important;
+}
+
+/*===== BS Custom =====*/
+
+.navbar-toggler {
+    color: transparent;
+    border-color: transparent;
+}
+
+/*====== STYLES ======*/
+
+footer {
+    font-size: 90%;
+}
+
+.o-navbar {
+    font-weight: 700;
+}
+
+.o-navbar-scrolled {
+    background-color: #ffffffde;
+    backdrop-filter: saturate(180%) blur(20px);
+    transition: 0.2s;
+}
+
+.header-block {
+    background-image: linear-gradient( 174.2deg,  #fff4e4 7.1%, #f8efdf 67.4%, #ffffff 80% );
+}
+
+.order-btn {
+    background-color: var(--sixth-color);
+    color: #fefefe;
+    font-weight: 700;
+}
+

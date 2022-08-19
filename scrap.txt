@@ -1,0 +1,74 @@
+    <script>
+       var nav = document.querySelector('nav');
+
+       window.addEventListener('scroll', function () {
+           if (window.pageYOffset > 100) {
+               nav.classList.add('o-navbar-scrolled', 'shadow');
+           } else {
+               nav.classList.remove('o-navbar-scrolled', 'shadow');
+           }
+       });
+
+ 
+        $(window).on('scroll', function(){
+			if ($(window).scrollTop()){
+				$('nav').addClass('o-navbar-scrolled', 'shadow');
+			}
+			else
+			{
+				$('nav').removeClass('o-navbar-scrolled', 'shadow');
+			}
+		})
+	       
+
+        jQuery(function($){
+            $( ".navbar-toggler" ).click(function() {
+                 $( this ).closest('.navbar').toggleClass('o-navbar-scrolled');
+            }); 
+        });
+
+//
+//        const navButton = document.getElementsByClassName('navbar-toggler')[0]
+//        const navMenu = document.getElementsByClassName('navbar')[0]
+//
+//        navButton.addEventListener('click', () => {
+//            navMenu.classList.toggle('o-navbar-scrolled', 'shadow');
+//        })
+//
+    </script>
+
+
+
+
+
+    <!-- Mode of Order -->
+<!-- ==== SCRAPPED CARDS ====
+        <section class="p-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md">
+                    <img src="img/order.svg" alt="" class="card-img-top">
+                    <div class="card-body">
+
+                    </div>
+                </div>
+                <div class="col-md">123</div>
+                <div class="col-md">123</div>
+            </div>
+        </div>
+    </section>
+-->
+
+
+#######################
+BOOTSTRAP CARD#########
+#######################
+
+    <div class="card" style="width: 18rem;">
+        <img src="" class="card-img-top" alt="">
+        <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
+            <a href="" class="btn btn-primary">Add to cart</a>
+        </div>
+    </div>

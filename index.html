@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <!-- Own CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <title>SINI-GANG</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="header-block">
+    <nav class="navbar navbar-expand-lg py-lg-3 fixed-top o-navbar">
+        <div class="container">
+            <a href="#" class="navbar-brand">
+                <img class="d-inline-block align-top" width="120" src="img/logo.png" alt="">
+            </a>
+
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-center" id="navmenu">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#reviews" class="nav-link">Reviews</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact Us</a>
+                    </li>
+                    <div class="nav-item mx-5">
+                        <a href="#cart" class="nav-link position-relative"><i class="bi bi-cart-fill" style="font-size: 1.5rem;"></i>
+                            <span class="position-absolute start-100 translate-middle badge rounded-pill bg-danger" style="font-size: 0.6rem; top: 30%;">
+                                99+
+                                <span class="visually-hidden">unread messages</span>
+                            </span>
+                        </a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Showcase -->
+    <section class="text-dark p-3 text-center text-sm-start" style="padding-top: 120px!important;">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Taste the Best <span class="o-text-primary-color"><b>Sinigang</b></span></h1>
+                    <p class="lead my-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo ad debitis quia quaerat quae animi maiores rem vel, aliquid incidunt.
+                    </p>
+                    <a class="btn btn-lg order-btn" href="#menu">Order now <i class="bi bi-caret-right-fill"></i></a>
+                </div>   
+                <img class="img-fluid w-50 d-none d-sm-block" src="img/showcase.svg" alt="">
+            </div>
+        </div>
+    </section>
+    </div>
+    <!-- Order With Our App -->
+    <section id="first-block" class="p-3">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="img/order.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md p-3">
+                    <h2>Order in our App <i class="bi bi-phone-fill d-md-inline" style="display: none;"></i></h2>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A nihil, aut voluptates velit adipisci error accusantium? Aliquid consequatur sunt quaerat?
+                    </p>
+                    <a href="#app" class="btn mt-3">
+                        Get App <i class="bi bi-caret-right-square-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="py-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-3 g-5 mx-5">
+                <div class="col">
+                    <div class="card py-3" style="">
+                        <img src="img/food.svg" class="card-img-top" alt="item" height="160">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
+                            <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                        </div>
+                    </div> 
+                </div>     
+                <div class="col">
+                    <div class="card py-3" style="">
+                        <img src="img/food.svg" class="card-img-top" alt="item" height="160">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
+                            <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col">
+                    <div class="card py-3" style="">
+                        <img src="img/food.svg" class="card-img-top" alt="item" height="160">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
+                            <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col">
+                    <div class="card py-3" style="">
+                        <img src="img/food.svg" class="card-img-top" alt="item" height="160">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
+                            <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col">
+                    <div class="card py-3" style="">
+                        <img src="img/food.svg" class="card-img-top" alt="item" height="160">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
+                            <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col">
+                    <div class="card py-3" style="">
+                        <img src="img/food.svg" class="card-img-top" alt="item" height="160">
+                        <div class="card-body">
+                            <h5 class="card-title">Card Title</h5>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat, doloribus!</p>
+                            <a href="#" class="btn btn-outline-dark">Add to cart</a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="p-3 second-block">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md p-3">
+                    <h2>Check the Reviews <i class="bi bi-star-fill d-md-inline" style="display: none;"></i></h2>
+                    <p class="lead">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. A nihil, aut voluptates velit adipisci error accusantium? Aliquid consequatur sunt quaerat?
+                    </p>
+                    <a href="#reviews" class="btn mt-3">
+                        Read more <i class="bi bi-chevron-right"></i>
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="img/review.svg" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-3 fw-light">
+
+        <div class="container text-md-left">
+    
+            <div class="row text-md-left footer-items-center-sm">
+    
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-dark">sini-gang</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus est similique, numquam et porro molestias. Maiores necessitatibus ratione quam quos, aspernatur qui magnam deserunt perferendis.</p>
+                    
+                </div>
+    
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-dark">How To Order</h5>
+                <p>
+                    <a href="#" class="text-decoration-none text-black" style="text-decoration: none;">View Menu</a>
+                </p>
+                <p>
+                    <a href="#" class="text-decoration-none text-black" style="text-decoration: none;">Delivery</a>
+                </p>
+                <p>
+                    <a href="#" class="text-decoration-none text-black" style="text-decoration: none;">Multi Delivery</a>
+                </p>
+                <p>
+                    <a href="#" class="text-decoration-none text-black" style="text-decoration: none;">Locations</a>
+                </p>
+    
+                </div>
+    
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-dark">Promotions</h5>
+                <p>
+                    <a href="#" class="text-decoration-none text-black" style="text-decoration: none;">Promos</a>
+                </p>
+                <p>
+                    <a href="#" class="text-decoration-none text-black" style="text-decoration: none;">Virtual Party</a>
+                </p>
+                <p>
+                    <a href="#" class="text-decoration-none text-black" style="text-decoration: none;">Gift Cards</a>
+                </p>
+                </div>
+    
+                <div id="contact" class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                    <h5 class="text-uppercase mb-4 font-weight-bold text-dark" >CONTACT Us</h5>
+                    <p>
+                        <i class="fas fa-home mr-3"></i>Jan Lang Sa, TABI 6900, PH
+                    </p>
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i>sini-gang@gmail.com
+                    </p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i>+63 3162859445
+                    </p>
+                    <p>
+                        <i class="fas fa-print mr-3"></i>+01 335 633 77
+                    </p>
+                </div>
+                
+            </div>
+    
+            <hr class="mb-4">
+    
+            <div class="row align-items-center">
+    
+                <div class="col-md-7 col-lg-8 text-secondary">
+                    <p>	Copyright ©2022 All rights reserved by:
+                        <a href="#" style="text-decoration: none;">
+                            <strong class="text-secondary">SINI-GANG</strong>
+                        </a></p>
+                    
+                </div>
+    
+                <div class="col-md-5 col-lg-4">
+                    <div class="text-center text-md-right">
+    
+                        <ul class="list-unstyled list-inline">
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm o-text-primary-color" style="font-size: 23px;"><i class="bi bi-facebook"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm o-text-primary-color" style="font-size: 23px;"><i class="bi bi-twitter"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm o-text-primary-color" style="font-size: 23px;"><i class="bi bi-instagram"></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#" class="btn-floating btn-sm o-text-primary-color" style="font-size: 23px;"><i class="bi bi-telegram"></i></i></a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://discord.gg/RApXsGynkF" class="btn-floating btn-sm o-text-primary-color" style="font-size: 23px;"><i class="bi bi-discord"></i></i></a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+    
+        </div>
+        
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script>
+        var nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', function () {
+            if (window.pageYOffset > 100) {
+                nav.classList.add('o-navbar-scrolled', 'shadow');
+            } else {
+                nav.classList.remove('o-navbar-scrolled', 'shadow');
+            }
+        });
+    </script>
+
+</body>
+</html>
